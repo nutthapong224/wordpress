@@ -37,7 +37,7 @@ services:
       WORDPRESS_DB_PASSWORD: wp_password
       WORDPRESS_DB_NAME: wordpress
     ports:
-      - "8000:80"
+      - "80:80"
     volumes:
       - wordpress_data:/var/www/html
     networks:
